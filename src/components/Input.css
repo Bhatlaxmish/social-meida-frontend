@@ -1,0 +1,52 @@
+.input {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+}
+.label{
+  margin-top:4rem;
+
+}
+
+.input input,
+.input textarea {
+  /* display: block; */
+  background-color: #e4efbc;
+}
+
+.input label {
+  
+  font-weight: bold;
+  /* margin-bottom: 10%; */
+  margin-left:43%;
+  
+}
+
+
+.input input {
+  width: 80%;
+  margin-left:3rem;
+  font: inherit;
+  border: 1px solid #ccc;
+  background: #e4efbc;
+  padding: 0.2rem 0.25rem;
+margin-top: 1rem;
+}
+
+.input input:focus,
+.input textarea:focus {
+  outline: none;
+  background: #ddf6b0;
+  border-color: #510077;
+}
+
+.inputinvalid label,
+.inputinvalid p {
+  color: red;
+}
+
+.inputinvalid input,
+.inputinvalid textarea {
+  border-color: red;
+  background: #ffd1d1;
+}

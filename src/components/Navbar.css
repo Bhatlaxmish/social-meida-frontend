@@ -1,0 +1,84 @@
+/* for laptop navbar */
+.listofelements {
+    background-color: #d0c0ff;
+    overflow: hidden;
+    list-style-type: none;
+    font-size: 2.8vh;
+
+}
+.listofelements img {
+    float: left;
+}
+
+.listofelements li {
+    float: left;
+}
+
+.elements {
+    margin: 1rem;
+}
+
+.floatright {
+    float: right;
+    margin: .3rem;
+
+}
+
+.floatright li {
+    margin: .5rem;
+}
+
+.imageofnavbar {
+
+    height: 4rem;
+    width: 5rem;
+
+}
+
+/* for mobile navbar */
+.mobileview {
+    display: none;
+    background-color: rgb(118, 208, 240);
+    flex-direction: column;
+
+}
+
+.listofelementsare {
+    list-style-type: none;
+}
+
+.button {
+    display: none;
+}
+
+.inputofnavbar {
+    width: 60%;
+}
+/* responsive  */
+@media screen and (max-width: 650px) {
+    .listofelements {
+        display: none;
+
+    }
+    .button {
+        display: block;
+
+    }
+    .navbar {
+        background-color: white;
+
+    }
+    .mobileview {
+        display: block;
+        position: fixed;
+        width: 40%;
+        z-index: 200;
+
+    }
+    .elements {
+        margin: .8rem;
+
+    }
+
+
+}

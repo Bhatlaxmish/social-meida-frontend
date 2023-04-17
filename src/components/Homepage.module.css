@@ -1,0 +1,34 @@
+.recentposts{
+    font-size: 2rem;
+    padding-left:8%;
+    background-color: aliceblue;
+    width:23%;
+}
+
+
+.homepage{
+    /* display:flex; */
+    /* flex-direction:column; */
+    /* margin-left:20%; */
+   
+}
+
+.forcard{
+   /* width:130%; */
+   /* display:flex; */
+   
+   align-content: space-between;
+   padding:4rem;
+   /* margin:1rem; */
+}
+.carddiv{
+    /* width:80%; */
+    margin-left:3rem;
+}
+.comments{
+    width:30%;
+    background-color: rgb(224, 106, 175);
+    /* padding-bottom:30%;
+    margin-bottom: 30%; */
+    margin-right:10%;
+}

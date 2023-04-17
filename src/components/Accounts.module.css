@@ -1,0 +1,45 @@
+.makeflex{
+display: flex;
+padding:3%;
+}
+.makeflex img{
+ width:15%;
+ height:15%;
+ border-radius: 100%;
+ 
+}
+.username{
+    padding:3%;
+}
+.followers{
+    padding:2%;
+}
+.following{
+    padding:2%;
+}
+
+.useracount{
+    padding-left:50%;
+    padding-top: 3%;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.description{
+    padding-left:3%;
+    width:38%;
+    box-sizing: 4rem;
+    word-wrap: break-word;
+}
+.heading{
+    padding-left: 50%;
+        padding-top: 3%;
+        font-size: 1.5rem;
+   
+}
+.line{
+    margin-top:1%;
+    background-color: yellow;
+    height:.2rem;
+    
+}
